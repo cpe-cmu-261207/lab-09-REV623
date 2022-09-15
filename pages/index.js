@@ -1,3 +1,11 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+import Profile from "../components/Profile";
+
 export default function Home() {
-  return <div>You code here</div>;
+  return (
+    <div>
+      <Profile />
+    </div>
+  )
 }
